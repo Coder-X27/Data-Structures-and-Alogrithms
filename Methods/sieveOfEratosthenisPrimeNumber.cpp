@@ -26,10 +26,12 @@ void sOE(int n)
     cout<<endl;
 }
 
+
     int main()
     {
         int n;
         cin >> n;
         sOE(n);
+        
         return 0;
     }
