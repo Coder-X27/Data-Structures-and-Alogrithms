@@ -94,5 +94,6 @@ int main(){
     //again detecting wheather a cycle is present in a linked list or not thistime this will result in 0;
     detectCycle(head);
     display(head);
+    
     return 0;
 }
