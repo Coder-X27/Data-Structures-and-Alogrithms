@@ -1,7 +1,6 @@
 #include<iostream>
 #include<stack>
 using namespace std;
-
 class Queue{
     stack<int> s1;
     stack<int> s2;
@@ -29,6 +28,8 @@ class Queue{
             return false;
         }
 };
+
+
 
 int main(){
 
