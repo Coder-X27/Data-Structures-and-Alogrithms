@@ -49,5 +49,6 @@ int main(){
     sumReplacement(root);
     cout<<endl;
     preorder(root);
+    
     return 0;
 }
