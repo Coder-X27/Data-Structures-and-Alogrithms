@@ -1,4 +1,6 @@
 #include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 
 class Node{
@@ -70,14 +72,27 @@ void display(Node* head){
 
 int main(){
 
-    Node* head=NULL;
-    insertNode(head,1);
-    insertNode(head,2);
-    insertNode(head,3);
-    insertNode(head,4);
-    insertAtHead(head,5);
-    display(head);
-    deleteNode(head,1);
-    display(head);
+    vector<int> v;
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(3);
+    v.push_back(4);
+    v.push_back(5);
+    v.push_back(6);
+    v.push_back(7);
+    // reverse(v.begin(),v.end());
+    cout<<v.at(0);
+    // cout<<v.end();
+
+    for(auto i:v) cout<<i<<endl;
+    // Node* head=NULL;
+    // insertNode(head,1);
+    // insertNode(head,2);
+    // insertNode(head,3);
+    // insertNode(head,4);
+    // insertAtHead(head,5);
+    // display(head);
+    // deleteNode(head,1);
+    // display(head);
     return 0;
 }
